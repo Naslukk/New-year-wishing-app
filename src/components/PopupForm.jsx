@@ -11,7 +11,9 @@ const PopupForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setUrl(`https://nashappynewyear.netlify.app/?from=${from}&to=${to}`);
+    const encodedFrom = encodeURIComponent(from);
+    const encodedTo = encodeURIComponent(to);
+    setUrl(`https://nashappynewyear.netlify.app/?from=${encodedFrom}&to=${encodedTo}`);
 
     setCopy(false)
   };
