@@ -24,16 +24,16 @@ Make sure you have Node.js and npm installed on your machine.
 
 1. **Clone the repository.**
 
-   ```bash
+```bash
    git clone https://github.com/Naslukk/New-year-wishing-app.git
 ```
 
-   ## Install Dependencies
+## Install Dependencies
 
 Before running the New Year Wishing App, make sure you have Node.js and npm installed on your machine.
 
-```bash
 # Install dependencies
+```bash
 npm install
 ```
 
