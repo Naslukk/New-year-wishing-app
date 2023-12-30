@@ -1,0 +1,90 @@
+.popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 1s forwards;
+    transition: all 0.5s ease;
+    background-color: #073b4c;
+}
+.active{
+    display: flex;
+}
+.popup {
+    background: #fff;
+    width: 300px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+    transition: all 0.5s ease;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+.url-diplay{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    animation: fadeIn 0.5s forwards;
+}
+.btn-copy{
+    margin-left: 2px;
+}
+.small-icon {
+    font-size: 20px;
+}
+.url-wrapper {
+    display: flex;
+    align-content: center;
+}  
+#url {
+    flex: 1;
+    margin: 0;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
