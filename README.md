@@ -24,23 +24,24 @@ Make sure you have Node.js and npm installed on your machine.
 
 1. **Clone the repository.**
 
-   ```bash```
-   git clone https://github.com/your-username/new-year-wishing-app.git
-
+   ```bash
+   git clone https://github.com/Naslukk/New-year-wishing-app.git
+```
 
    ## Install Dependencies
 
 Before running the New Year Wishing App, make sure you have Node.js and npm installed on your machine.
 
-```bash```
+```bash
 # Install dependencies
 npm install
+```
 
 ## Start the Development Server
 
-```bash```
+```bash
 npm run dev
-
+```
 ## Folder Structure
 
 - `src`: Contains the source code of the React app.
@@ -50,7 +51,7 @@ npm run dev
   - `pages`: Individual pages of the app.
   - `styles`: CSS styles for the app.
 
-  
+
 ## How to Contribute
 
 If you'd like to contribute to the project, follow these steps:
