@@ -11,7 +11,7 @@ const PopupForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setUrl(`http://localhost:5173/?from=${from}&to=${to}`);
+    setUrl(`https://nashappynewyear.netlify.app/?from=${from}&to=${to}`);
 
     setCopy(false)
   };
